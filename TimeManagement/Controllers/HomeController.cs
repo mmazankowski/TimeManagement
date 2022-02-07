@@ -28,6 +28,16 @@ namespace TimeManagement.Controllers
             return View();
         }
 
+        public IActionResult addTask()
+        {
+            return View();
+        }
+
+        public IActionResult viewTask()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

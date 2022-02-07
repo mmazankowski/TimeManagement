@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "/Users/matthewmazankowski/.nuget/packages/": {}
+    "C:\\Users\\maddy\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj",
+      "projectUniqueName": "C:\\Users\\maddy\\Source\\Repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
       "projectName": "TimeManagement",
-      "projectPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj",
-      "packagesPath": "/Users/matthewmazankowski/.nuget/packages/",
-      "outputPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/obj/",
+      "projectPath": "C:\\Users\\maddy\\Source\\Repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
+      "packagesPath": "C:\\Users\\maddy\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\maddy\\Source\\Repos\\TimeManagement\\TimeManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/matthewmazankowski/.config/NuGet/NuGet.Config"
+        "C:\\Users\\maddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -61,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }
