@@ -23,6 +23,11 @@ namespace TimeManagement.Controllers
             return View();
         }
 
+        public IActionResult Quadrants()
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

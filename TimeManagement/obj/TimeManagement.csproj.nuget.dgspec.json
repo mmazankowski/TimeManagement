@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement/TimeManagement.csproj": {}
+    "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj": {}
   },
   "projects": {
-    "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement/TimeManagement.csproj": {
+    "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement/TimeManagement.csproj",
+        "projectUniqueName": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj",
         "projectName": "TimeManagement",
-        "projectPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement/TimeManagement.csproj",
+        "projectPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj",
         "packagesPath": "/Users/matthewmazankowski/.nuget/packages/",
-        "outputPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement/obj/",
+        "outputPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/matthewmazankowski/.config/NuGet/NuGet.Config"
