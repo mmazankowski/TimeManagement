@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using TimeManagement.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace TimeManagement.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private TaskFormContext _taskContext { get; set; }
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(TaskFormContext something)
         {
-            _logger = logger;
+            _taskContext = something;
         }
 
         public IActionResult Index()

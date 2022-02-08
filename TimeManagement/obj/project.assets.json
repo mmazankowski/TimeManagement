@@ -1194,19 +1194,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maddy\\.nuget\\packages\\": {}
+    "C:\\Users\\Jacob Gifford\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maddy\\source\\repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Jacob Gifford\\Source\\Repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
       "projectName": "TimeManagement",
-      "projectPath": "C:\\Users\\maddy\\source\\repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
-      "packagesPath": "C:\\Users\\maddy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maddy\\source\\repos\\TimeManagement\\TimeManagement\\obj\\",
+      "projectPath": "C:\\Users\\Jacob Gifford\\Source\\Repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
+      "packagesPath": "C:\\Users\\Jacob Gifford\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jacob Gifford\\Source\\Repos\\TimeManagement\\TimeManagement\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Jacob Gifford\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,30 +1,26 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
 
     ViewData["Title"] = "Add Task";
 }
 
 <!--Add model when ready  -->
-<!--@model-->
+@model TaskForm
 
 <h1>New Task? Add below.</h1>
-
 
 <div>
     <form>
         <!--Make sure that the asp-for names will match with the model-->
-        <label asp-for="task">Task</label>
-        <input asp-for="task" />
+        <label asp-for="TaskName">Task</label>
+        <input asp-for="TaskName" />
 
         <br />
-        <label asp-for="date">Due Date</label>
-        <input asp-for="date" />
+        <label asp-for="DueDate">Due Date</label>
+        <input asp-for="DueDate" />
 
         <br />
-        <label asp-for="quadrant">Quadrant</label>
-        <select asp-for="quadrant">
+        <label asp-for="Quadrant">Quadrant</label>
+        <select asp-for="Quadrant">
             <option value="">Please select a quadrant:</option>
             <option value="1"> 1</option>
             <option value="2">2</option>
@@ -33,8 +29,8 @@
         </select>
 
         <br />
-        <label asp-for="category">Category</label>
-        <select asp-for="category">
+        <label asp-for="CategoryId">Category</label>
+        <select asp-for="CategoryId">
             <option value="">Please select a category:</option>
             <option value="1"> Home</option>
             <option value="2">School</option>
@@ -43,8 +39,8 @@
         </select>
 
         <br />
-        <label asp-for="complete">Is the task completed?</label>
-        <select asp-for="complete">
+        <label asp-for="Completed">Is the task completed?</label>
+        <select asp-for="Completed">
             <option value="true">Yes</option>
             <option value="false">No</option>
         </select>
