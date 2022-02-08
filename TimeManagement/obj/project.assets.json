@@ -1188,32 +1188,31 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.22",
+      "Microsoft.EntityFrameworkCore.Analyzers >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.22",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.22"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\maddy\\.nuget\\packages\\": {}
+    "/Users/matthewmazankowski/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maddy\\source\\repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
+      "projectUniqueName": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj",
       "projectName": "TimeManagement",
-      "projectPath": "C:\\Users\\maddy\\source\\repos\\TimeManagement\\TimeManagement\\TimeManagement.csproj",
-      "packagesPath": "C:\\Users\\maddy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maddy\\source\\repos\\TimeManagement\\TimeManagement\\obj\\",
+      "projectPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/TimeManagement.csproj",
+      "packagesPath": "/Users/matthewmazankowski/.nuget/packages/",
+      "outputPath": "/Users/matthewmazankowski/Desktop/413-Mission/TimeManagement/TimeManagement/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maddy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/matthewmazankowski/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1233,6 +1232,10 @@
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.22, )"
+          },
+          "Microsoft.EntityFrameworkCore.Analyzers": {
             "target": "Package",
             "version": "[3.1.22, )"
           },
@@ -1271,7 +1274,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
       }
     }
   }
