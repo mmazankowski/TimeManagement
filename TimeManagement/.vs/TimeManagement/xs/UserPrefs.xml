@@ -6,9 +6,10 @@
           <Node name="TimeManagement" expanded="True">
             <Node name="TimeManagement" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True">
-                  <Node name="viewTask.cshtml" selected="True" />
+                  <Node name="Index.cshtml" selected="True" />
                 </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
